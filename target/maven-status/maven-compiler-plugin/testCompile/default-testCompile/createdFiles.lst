@@ -1,0 +1,8 @@
+com\userapi\base\TestBase.class
+com\userapi\testCases\TC5_DELETE_User_Record.class
+com\userapi\testCases\TC4_PUT_Update_User_Record.class
+com\userapi\utilities\RestUtils.class
+com\userapi\testCases\TC3_POST_User_Record.class
+com\userapi\utilities\Listeners.class
+com\userapi\testCases\TC2_GET_Single_User.class
+com\userapi\testCases\TC1_GET_All_Users.class

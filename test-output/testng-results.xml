@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="35" passed="35">
+  <reporter-output>
+  </reporter-output>
+  <suite name="UsersRestAPISuite" duration-ms="20716" started-at="2019-12-02T12:27:09 CET" finished-at="2019-12-02T12:27:30 CET">
+    <groups>
+    </groups>
+    <test name="UsersRestAPITest" duration-ms="20716" started-at="2019-12-02T12:27:09 CET" finished-at="2019-12-02T12:27:30 CET">
+      <class name="com.userapi.testCases.TC5_DELETE_User_Record">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.userapi.testCases.TC5_DELETE_User_Record@9660f4e]" name="setUp" is-config="true" duration-ms="5" started-at="2019-12-02T12:27:26 CET" finished-at="2019-12-02T12:27:26 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="deleteSingleUser()[pri:0, instance:com.userapi.testCases.TC5_DELETE_User_Record@9660f4e]" name="deleteSingleUser" is-config="true" duration-ms="3760" started-at="2019-12-02T12:27:26 CET" finished-at="2019-12-02T12:27:30 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteSingleUser -->
+        <test-method status="PASS" signature="checkContentLength()[pri:0, instance:com.userapi.testCases.TC5_DELETE_User_Record@9660f4e]" name="checkContentLength" duration-ms="0" started-at="2019-12-02T12:27:30 CET" finished-at="2019-12-02T12:27:30 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentLength -->
+        <test-method status="PASS" signature="checkResponseBody()[pri:0, instance:com.userapi.testCases.TC5_DELETE_User_Record@9660f4e]" name="checkResponseBody" duration-ms="1" started-at="2019-12-02T12:27:30 CET" finished-at="2019-12-02T12:27:30 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method status="PASS" signature="checkResponseTime()[pri:0, instance:com.userapi.testCases.TC5_DELETE_User_Record@9660f4e]" name="checkResponseTime" duration-ms="0" started-at="2019-12-02T12:27:30 CET" finished-at="2019-12-02T12:27:30 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.userapi.testCases.TC5_DELETE_User_Record@9660f4e]" name="checkStatusCode" duration-ms="4" started-at="2019-12-02T12:27:30 CET" finished-at="2019-12-02T12:27:30 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkServer()[pri:0, instance:com.userapi.testCases.TC5_DELETE_User_Record@9660f4e]" name="checkServer" duration-ms="0" started-at="2019-12-02T12:27:30 CET" finished-at="2019-12-02T12:27:30 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkServer -->
+        <test-method status="PASS" signature="checkStatusLine()[pri:0, instance:com.userapi.testCases.TC5_DELETE_User_Record@9660f4e]" name="checkStatusLine" duration-ms="0" started-at="2019-12-02T12:27:30 CET" finished-at="2019-12-02T12:27:30 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.userapi.testCases.TC5_DELETE_User_Record@9660f4e]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-12-02T12:27:30 CET" finished-at="2019-12-02T12:27:30 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.userapi.testCases.TC5_DELETE_User_Record -->
+      <class name="com.userapi.testCases.TC2_GET_Single_User">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.userapi.testCases.TC2_GET_Single_User@7494e528]" name="setUp" is-config="true" duration-ms="4" started-at="2019-12-02T12:27:13 CET" finished-at="2019-12-02T12:27:13 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getSingleUser()[pri:0, instance:com.userapi.testCases.TC2_GET_Single_User@7494e528]" name="getSingleUser" is-config="true" duration-ms="2431" started-at="2019-12-02T12:27:13 CET" finished-at="2019-12-02T12:27:15 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSingleUser -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:com.userapi.testCases.TC2_GET_Single_User@7494e528]" name="checkContentType" duration-ms="2" started-at="2019-12-02T12:27:15 CET" finished-at="2019-12-02T12:27:15 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkEncodingType()[pri:0, instance:com.userapi.testCases.TC2_GET_Single_User@7494e528]" name="checkEncodingType" duration-ms="1" started-at="2019-12-02T12:27:15 CET" finished-at="2019-12-02T12:27:15 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkEncodingType -->
+        <test-method status="PASS" signature="checkResponseBody()[pri:0, instance:com.userapi.testCases.TC2_GET_Single_User@7494e528]" name="checkResponseBody" duration-ms="0" started-at="2019-12-02T12:27:15 CET" finished-at="2019-12-02T12:27:15 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method status="PASS" signature="checkServer()[pri:0, instance:com.userapi.testCases.TC2_GET_Single_User@7494e528]" name="checkServer" duration-ms="4" started-at="2019-12-02T12:27:15 CET" finished-at="2019-12-02T12:27:15 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkServer -->
+        <test-method status="PASS" signature="checkResponseTime()[pri:0, instance:com.userapi.testCases.TC2_GET_Single_User@7494e528]" name="checkResponseTime" duration-ms="0" started-at="2019-12-02T12:27:15 CET" finished-at="2019-12-02T12:27:15 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.userapi.testCases.TC2_GET_Single_User@7494e528]" name="checkStatusCode" duration-ms="4" started-at="2019-12-02T12:27:15 CET" finished-at="2019-12-02T12:27:15 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkStatusLine()[pri:0, instance:com.userapi.testCases.TC2_GET_Single_User@7494e528]" name="checkStatusLine" duration-ms="0" started-at="2019-12-02T12:27:15 CET" finished-at="2019-12-02T12:27:15 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method status="PASS" signature="checkUserId()[pri:0, instance:com.userapi.testCases.TC2_GET_Single_User@7494e528]" name="checkUserId" duration-ms="4" started-at="2019-12-02T12:27:15 CET" finished-at="2019-12-02T12:27:15 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkUserId -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.userapi.testCases.TC2_GET_Single_User@7494e528]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-12-02T12:27:15 CET" finished-at="2019-12-02T12:27:15 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.userapi.testCases.TC2_GET_Single_User -->
+      <class name="com.userapi.testCases.TC1_GET_All_Users">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.userapi.testCases.TC1_GET_All_Users@30b8a058]" name="setUp" is-config="true" duration-ms="33" started-at="2019-12-02T12:27:09 CET" finished-at="2019-12-02T12:27:09 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getAllUsers()[pri:0, instance:com.userapi.testCases.TC1_GET_All_Users@30b8a058]" name="getAllUsers" is-config="true" duration-ms="3624" started-at="2019-12-02T12:27:09 CET" finished-at="2019-12-02T12:27:13 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllUsers -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:com.userapi.testCases.TC1_GET_All_Users@30b8a058]" name="checkContentType" duration-ms="10" started-at="2019-12-02T12:27:13 CET" finished-at="2019-12-02T12:27:13 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkEncodingType()[pri:0, instance:com.userapi.testCases.TC1_GET_All_Users@30b8a058]" name="checkEncodingType" duration-ms="4" started-at="2019-12-02T12:27:13 CET" finished-at="2019-12-02T12:27:13 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkEncodingType -->
+        <test-method status="PASS" signature="checkResponseBody()[pri:0, instance:com.userapi.testCases.TC1_GET_All_Users@30b8a058]" name="checkResponseBody" duration-ms="20" started-at="2019-12-02T12:27:13 CET" finished-at="2019-12-02T12:27:13 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method status="PASS" signature="checkResponseTime()[pri:0, instance:com.userapi.testCases.TC1_GET_All_Users@30b8a058]" name="checkResponseTime" duration-ms="0" started-at="2019-12-02T12:27:13 CET" finished-at="2019-12-02T12:27:13 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method status="PASS" signature="checkServer()[pri:0, instance:com.userapi.testCases.TC1_GET_All_Users@30b8a058]" name="checkServer" duration-ms="0" started-at="2019-12-02T12:27:13 CET" finished-at="2019-12-02T12:27:13 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkServer -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.userapi.testCases.TC1_GET_All_Users@30b8a058]" name="checkStatusCode" duration-ms="0" started-at="2019-12-02T12:27:13 CET" finished-at="2019-12-02T12:27:13 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkStatusLine()[pri:0, instance:com.userapi.testCases.TC1_GET_All_Users@30b8a058]" name="checkStatusLine" duration-ms="4" started-at="2019-12-02T12:27:13 CET" finished-at="2019-12-02T12:27:13 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.userapi.testCases.TC1_GET_All_Users@30b8a058]" name="tearDown" is-config="true" duration-ms="4" started-at="2019-12-02T12:27:13 CET" finished-at="2019-12-02T12:27:13 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.userapi.testCases.TC1_GET_All_Users -->
+      <class name="com.userapi.testCases.TC3_POST_User_Record">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.userapi.testCases.TC3_POST_User_Record@4bbfb90a]" name="setUp" is-config="true" duration-ms="1" started-at="2019-12-02T12:27:15 CET" finished-at="2019-12-02T12:27:15 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createUser()[pri:0, instance:com.userapi.testCases.TC3_POST_User_Record@4bbfb90a]" name="createUser" is-config="true" duration-ms="5310" started-at="2019-12-02T12:27:15 CET" finished-at="2019-12-02T12:27:21 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:com.userapi.testCases.TC3_POST_User_Record@4bbfb90a]" name="checkContentType" duration-ms="0" started-at="2019-12-02T12:27:21 CET" finished-at="2019-12-02T12:27:21 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkEncodingType()[pri:0, instance:com.userapi.testCases.TC3_POST_User_Record@4bbfb90a]" name="checkEncodingType" duration-ms="1" started-at="2019-12-02T12:27:21 CET" finished-at="2019-12-02T12:27:21 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkEncodingType -->
+        <test-method status="PASS" signature="checkResponseBody()[pri:0, instance:com.userapi.testCases.TC3_POST_User_Record@4bbfb90a]" name="checkResponseBody" duration-ms="0" started-at="2019-12-02T12:27:21 CET" finished-at="2019-12-02T12:27:21 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method status="PASS" signature="checkServer()[pri:0, instance:com.userapi.testCases.TC3_POST_User_Record@4bbfb90a]" name="checkServer" duration-ms="4" started-at="2019-12-02T12:27:21 CET" finished-at="2019-12-02T12:27:21 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkServer -->
+        <test-method status="PASS" signature="checkResponseTime()[pri:0, instance:com.userapi.testCases.TC3_POST_User_Record@4bbfb90a]" name="checkResponseTime" duration-ms="0" started-at="2019-12-02T12:27:21 CET" finished-at="2019-12-02T12:27:21 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.userapi.testCases.TC3_POST_User_Record@4bbfb90a]" name="checkStatusCode" duration-ms="0" started-at="2019-12-02T12:27:21 CET" finished-at="2019-12-02T12:27:21 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkStatusLine()[pri:0, instance:com.userapi.testCases.TC3_POST_User_Record@4bbfb90a]" name="checkStatusLine" duration-ms="0" started-at="2019-12-02T12:27:21 CET" finished-at="2019-12-02T12:27:21 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.userapi.testCases.TC3_POST_User_Record@4bbfb90a]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-12-02T12:27:21 CET" finished-at="2019-12-02T12:27:21 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.userapi.testCases.TC3_POST_User_Record -->
+      <class name="com.userapi.testCases.TC4_PUT_Update_User_Record">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.userapi.testCases.TC4_PUT_Update_User_Record@7c29daf3]" name="setUp" is-config="true" duration-ms="3" started-at="2019-12-02T12:27:21 CET" finished-at="2019-12-02T12:27:21 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createUser()[pri:0, instance:com.userapi.testCases.TC4_PUT_Update_User_Record@7c29daf3]" name="createUser" is-config="true" duration-ms="5278" started-at="2019-12-02T12:27:21 CET" finished-at="2019-12-02T12:27:26 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:com.userapi.testCases.TC4_PUT_Update_User_Record@7c29daf3]" name="checkContentType" duration-ms="0" started-at="2019-12-02T12:27:26 CET" finished-at="2019-12-02T12:27:26 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkEncodingType()[pri:0, instance:com.userapi.testCases.TC4_PUT_Update_User_Record@7c29daf3]" name="checkEncodingType" duration-ms="0" started-at="2019-12-02T12:27:26 CET" finished-at="2019-12-02T12:27:26 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkEncodingType -->
+        <test-method status="PASS" signature="checkResponseTime()[pri:0, instance:com.userapi.testCases.TC4_PUT_Update_User_Record@7c29daf3]" name="checkResponseTime" duration-ms="4" started-at="2019-12-02T12:27:26 CET" finished-at="2019-12-02T12:27:26 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method status="PASS" signature="checkResponseBody()[pri:0, instance:com.userapi.testCases.TC4_PUT_Update_User_Record@7c29daf3]" name="checkResponseBody" duration-ms="0" started-at="2019-12-02T12:27:26 CET" finished-at="2019-12-02T12:27:26 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method status="PASS" signature="checkServer()[pri:0, instance:com.userapi.testCases.TC4_PUT_Update_User_Record@7c29daf3]" name="checkServer" duration-ms="0" started-at="2019-12-02T12:27:26 CET" finished-at="2019-12-02T12:27:26 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkServer -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.userapi.testCases.TC4_PUT_Update_User_Record@7c29daf3]" name="checkStatusCode" duration-ms="0" started-at="2019-12-02T12:27:26 CET" finished-at="2019-12-02T12:27:26 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkStatusLine()[pri:0, instance:com.userapi.testCases.TC4_PUT_Update_User_Record@7c29daf3]" name="checkStatusLine" duration-ms="4" started-at="2019-12-02T12:27:26 CET" finished-at="2019-12-02T12:27:26 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.userapi.testCases.TC4_PUT_Update_User_Record@7c29daf3]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-12-02T12:27:26 CET" finished-at="2019-12-02T12:27:26 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.userapi.testCases.TC4_PUT_Update_User_Record -->
+    </test> <!-- UsersRestAPITest -->
+  </suite> <!-- UsersRestAPISuite -->
+</testng-results>
